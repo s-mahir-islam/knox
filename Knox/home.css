@@ -1,0 +1,195 @@
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Jost', 'Poppins', sans-serif;
+}
+
+
+nav{
+    background: #00bfa5;
+    width: 100%;
+    height: 75.5px;
+    margin-bottom: 0px;
+}
+
+.titleknox{
+    padding: 0px 30px 0px 30px;
+    color: white;
+    float: left;
+}
+
+.navlinks{
+    font-weight: bold;
+    padding: 0px;
+    float: right;
+    height: 64.5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 5px 30px 5px 30px;
+    margin-right: 20px;
+    color: white;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a.li:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.nav a:hover {
+    color:#6666FF;
+}
+
+
+
+.admin {
+    /*height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;*/
+    display: flex;
+    position: relative;
+}
+
+.admin .sidebar {
+    /*left: 0px;
+    margin: 0;
+    flex: 2;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;*/
+    background-color: #6666FF;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+}
+
+.admin .sidebar ul{
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.admin .sidebar ul li a {
+    font-weight: bold;
+    padding: 5px 18px 25px 18px;
+    margin-top: 0px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+.admin .sidebar a:hover {
+    color: black;
+    background: white;
+}
+
+.admin .content {
+    /*flex: 8;
+    flex-direction: column;*/
+    width: 100%;
+    margin-left: 300px;
+}
+
+.records{
+    width: 80em;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+th{
+    font-size: 19px;
+    text-align: left;
+    background-color: #f3f3f3;
+    color: black;
+    padding: 12px 15px;
+    font-weight: bold;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 12px 25px;
+}
+
+td{
+    font-size: 19px;;
+    font-weight: 550;
+}
+
+.records tbody tr{
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:hover{
+    background-color: #fff7f7;
+}
+
+.admin .container {
+    flex: 8;
+    height: 100%;
+}
+
+.records tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(95, 94, 94);   
+}
+
+.overview{
+    padding-left: 150px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+.info h2{
+    font-size: 30px;
+    padding-bottom: 13px;
+}
+
+.info{
+    color: black;
+    padding-left: 150px;
+    font-size: 20px;
+}
+
+.info li{
+    height: 70px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    padding: 40px 10px 0px 10px;
+    width: 300px;
+}
+
+.profile {
+    height: 340px;
+    border: 1px solid black;
+    width: 500px;
+    background-color: #363636;
+    border-radius: 25px;
+    margin-top: 50px;
+}
